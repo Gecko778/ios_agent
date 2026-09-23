@@ -1,0 +1,8 @@
+gateway/.venv/
+gateway/.pytest_cache/
+gateway/.ruff_cache/
+**/__pycache__/
+**/*.pyc
+ios/*.xcodeproj/
+ios/*.xcworkspace/
+.DS_Store

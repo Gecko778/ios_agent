@@ -1,0 +1,7 @@
+{
+  "openai": {"protocol": "responses", "base_url": "https://api.openai.com/v1", "model": "gpt-5.6"},
+  "deepseek": {"protocol": "chat", "base_url": "https://api.deepseek.com", "model": "deepseek-flash"},
+  "anthropic": {"protocol": "anthropic", "base_url": "https://api.anthropic.com/v1", "model": "claude-sonnet-4-5"},
+  "glm": {"protocol": "chat", "base_url": "https://open.bigmodel.cn/api/paas/v4", "model": "glm-4.7"},
+  "kimi": {"protocol": "chat", "base_url": "https://api.moonshot.ai/v1", "model": "kimi-k2.5"}
+}

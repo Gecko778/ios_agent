@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: local-assistant-gateway
+Version: 0.1.0
+Summary: Local gateway for a Siri-invoked map assistant
+Requires-Python: >=3.11
+Requires-Dist: fastapi<1,>=0.115
+Requires-Dist: httpx<1,>=0.27
+Requires-Dist: pydantic<3,>=2.9
+Requires-Dist: uvicorn<1,>=0.30
+Provides-Extra: test
+Requires-Dist: pytest<10,>=8; extra == "test"
+Requires-Dist: pytest-asyncio<2,>=0.24; extra == "test"

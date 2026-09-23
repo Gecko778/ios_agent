@@ -1,0 +1,15 @@
+{
+  "name": "open_route",
+  "risk": "handoff",
+  "executor": "deep_link",
+  "requires_confirmation": true,
+  "input_schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["place_id", "mode"],
+    "properties": {
+      "place_id": {"type": "string"},
+      "mode": {"enum": ["walk", "drive", "transit", "bicycle", "taxi"]}
+    }
+  }
+}

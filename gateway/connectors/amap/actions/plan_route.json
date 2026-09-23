@@ -1,0 +1,15 @@
+{
+  "name": "plan_route",
+  "risk": "read",
+  "executor": "python_adapter",
+  "input_schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["origin", "destination", "mode"],
+    "properties": {
+      "origin": {"type": "object"},
+      "destination": {"type": "object"},
+      "mode": {"enum": ["walk", "drive", "transit", "bicycle", "taxi"]}
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "search_nearby",
+  "risk": "read",
+  "executor": "python_adapter",
+  "input_schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["query", "longitude", "latitude", "radius_m", "ranking"],
+    "properties": {
+      "query": {"type": "string", "minLength": 1},
+      "longitude": {"type": "number"},
+      "latitude": {"type": "number"},
+      "radius_m": {"type": "integer", "minimum": 1, "maximum": 50000},
+      "ranking": {"enum": ["nearest", "rating"]}
+    }
+  }
+}

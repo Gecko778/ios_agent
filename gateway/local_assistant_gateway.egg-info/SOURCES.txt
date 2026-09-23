@@ -1,0 +1,17 @@
+pyproject.toml
+assistant/__init__.py
+assistant/amap.py
+assistant/api.py
+assistant/intent.py
+assistant/models.py
+assistant/providers.py
+assistant/registry.py
+assistant/secrets.py
+assistant/service.py
+assistant/setup.py
+local_assistant_gateway.egg-info/PKG-INFO
+local_assistant_gateway.egg-info/SOURCES.txt
+local_assistant_gateway.egg-info/dependency_links.txt
+local_assistant_gateway.egg-info/requires.txt
+local_assistant_gateway.egg-info/top_level.txt
+tests/test_gateway.py

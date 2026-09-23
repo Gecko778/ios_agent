@@ -1,0 +1,10 @@
+{
+  "id": "amap",
+  "version": "0.1.0",
+  "region": "CN",
+  "official_docs": "https://lbs.amap.com/api/webservice/guide/api/search/",
+  "adapter": "assistant.amap:AmapClient",
+  "allowed_hosts": ["restapi.amap.com"],
+  "allowed_schemes": ["iosamap"],
+  "actions": ["search_nearby", "plan_route", "open_route"]
+}
